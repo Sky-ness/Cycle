@@ -19,9 +19,10 @@
     "@angular/platform-browser-dynamic": "^17.3.8",
     "@angular/router": "^17.3.8",
     "@fortawesome/angular-fontawesome": "^0.14.1",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
-    "primeng": "^17.17.0",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "primeng": "^17.18.0",
+    "quill": "^2.0.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
