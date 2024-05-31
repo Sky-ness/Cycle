@@ -1,0 +1,66 @@
+  <div class="flex justify-center my-5">
+    <p-table>
+      <ng-template pTemplate="header">
+        <tr>
+          <th>
+            <fa-icon [icon]="faCalendar"/>
+            Jours d'ouverture
+          </th>
+          <th>
+            <fa-icon [icon]="faCalendarPlus"/>
+            Ouverture
+          </th>
+          <th>
+            <fa-icon [icon]="faUtensils"/>
+            Pause
+          </th>
+          <th>
+            <fa-icon [icon]="faCalendarMinus"/>
+            Fermeture
+          </th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body">
+        <tr>
+          <td>
+            Lundi à Samedi
+          </td>
+          <td>
+            10h00
+          </td>
+          <td>
+            12h15 à 14h00
+          </td>
+          <td>
+            19h00
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
+<div class="flex flex-row my-5">
+  <div class="flex flex-col social-icon items-center basis-1/2">
+      <a class="flex flex-row items-center gap-2" href="https://www.instagram.com/">
+        <fa-icon [icon]="faInstagram"/>
+        <p>Instagram</p>
+      </a>
+      <a class="flex flex-row items-center gap-2" href="https://www.facebook.com/">
+        <fa-icon [icon]="faFacebook"/>
+        <p>Facebook</p>
+      </a>
+      <a class="flex flex-row items-center gap-2" href="https://www.google.com/">
+        <fa-icon [icon]="faGooglePlus"/>
+        <p>Google</p>
+      </a>
+  </div>
+  <div class="flex flex-col items-center basis-1/2">
+    <div class="text-center">
+      <fa-icon [icon]="faPhone"/>
+      <p>06 50 24 78 96</p>
+    </div>
+    <div class="text-center">
+      <fa-icon [icon]="faEnvelope"/>
+      <p>mail&#64;torequest.com</p>
+    </div>
+  </div>
+</div>

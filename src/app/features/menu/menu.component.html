@@ -1,0 +1,18 @@
+<div class="flex flex-row">
+  <div class="flex basis-1/2 items-center gap-3">
+    <fa-icon [icon]="faBiking"></fa-icon>
+    <h1>{{ title }}</h1>
+    <p-inputSwitch></p-inputSwitch>
+  </div>
+  <div class="flex justify-end basis-1/2 items-center">
+    <p-menubar [model]="items">
+      <ng-template pTemplate="item" let-item>
+        <ng-container *ngIf="item.route">
+          <a [routerLink]="item.route" class="p-menuitem-link">
+            <span class="ml-2">{{ item.label }}</span>
+          </a>
+        </ng-container>
+      </ng-template>
+    </p-menubar>
+  </div>
+</div>

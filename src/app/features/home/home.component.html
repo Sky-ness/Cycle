@@ -1,0 +1,17 @@
+<div class="flex flex-col content-center">
+  <h1 class="text-center">Bienvenue</h1>
+  <div class="flex justify-center">
+    <p-galleria
+    [value]="images"
+    [circular]="true"
+    [showThumbnails]="false"
+    [showIndicators]="true"
+    [showIndicatorsOnItem]="true"
+    style="width:600px"
+    >
+      <ng-template pTemplate="item" let-item>
+        <img [ngSrc]="item.src" alt="image" height="333" width="600" />
+      </ng-template>
+    </p-galleria>
+  </div>
+</div>

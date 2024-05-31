@@ -1,0 +1,12 @@
+.social-icon .ng-fa-icon{
+  color:black;
+  font-size: xx-large;
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+a:hover , .social-icon .ng-fa-icon:hover{
+  color: #0e7490;
+}
+
